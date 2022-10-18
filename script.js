@@ -52,4 +52,5 @@ function game(){
 }
 
 
-document.getElementById("gameStart").addEventListener("click", game())
+var btn = document.getElementById("gameStart")
+    btn.addEventListener("click", game)
