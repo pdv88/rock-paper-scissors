@@ -13,15 +13,17 @@
             <h1>Rock Paper Scissors</h1>
         </div>
         
-        <div class="scoreboard" id="gameScore">
-            <h2>Scoreboard</h2>
-            <div class="score" id="playerScore"></div>
+        <div id="scoreboard">
+            <h2>Scoreboard</h2>            
         </div>
+        <div id="gameMessage"></div>
 
-        <div class="weaponMenu">        
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
+        <div id="weaponMenu">        
+            <div>
+            <button class="weapon" onclick ="playRound('rock')">Rock</button>
+            <button class="weapon" onclick ="playRound('paper')">Paper</button>
+            <button class="weapon" onclick ="playRound('scissors')">Scissors</button>
+            </div>
         </div>
         <script src="./script.js"></script>
     </body>
