@@ -5,7 +5,6 @@ const options = ["rock", "paper", "scissors"]
 const scoreboard = document.querySelector('#scoreboard')
 const gameMessage = document.querySelector('#gameMessage')
 const weaponMenu = document.querySelector('#weaponMenu')
-const weapon = document.querySelector('.weapon')
 const score = document.createElement('div')
 const gameWinner = document.createElement('div')
 const roundWinner = document.createElement('div')
